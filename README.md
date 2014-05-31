@@ -18,9 +18,11 @@ WordPress short code to render savings data about a bundle in Easy Digital Downl
 ```
 [edd-bundle-savings
     return = "savings"
-    bundle_id = 9457
-    bundle_variant_price_id = 0
-    download_variant_price_id = 0]```
+    bundle_id = "9457"
+    bundle_variant_price_id = "0"
+    download_variant_price_id = "0"
+] 
+    ```
     
 ###return###
 
