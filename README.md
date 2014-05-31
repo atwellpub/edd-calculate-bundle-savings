@@ -22,7 +22,7 @@ WordPress short code to render savings data about a bundle in Easy Digital Downl
     bundle_variant_price_id = "0"
     download_variant_price_id = "0"
 ] 
-    ```
+```
     
 ###return###
 
