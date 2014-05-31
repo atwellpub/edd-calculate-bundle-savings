@@ -11,7 +11,7 @@ WordPress short code to render savings data about a bundle in Easy Digital Downl
 
 ## How to build the Shortcode ##
 
-```[edd-bundle-savings]```
+``` [edd-bundle-savings] ```
 
 ###Example###
 
