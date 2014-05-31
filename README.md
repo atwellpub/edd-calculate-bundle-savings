@@ -19,8 +19,8 @@ WordPress short code to render savings data about a bundle in Easy Digital Downl
 [edd-bundle-savings
     return = "savings"
     bundle_id = "9457"
-    bundle_variant_price_id = "0"
-    download_variant_price_id = "0"
+    bundle_variant_key = "0"
+    download_variant_key = "0"
 ] 
 ```
     
@@ -36,11 +36,11 @@ WordPress short code to render savings data about a bundle in Easy Digital Downl
 
 'bundle_id' accepts the ID of the bundle product
 
-###bundle_variant_price_id###
+###bundle_variant_key###
 
 If your bundle has multiple price options we need to set the id of the variation.
 This value is usually 0 for variation 1, 1 for variation 2, and 2 for variation 3.
 
-###download_variant_price_id###
+###download_variant_key###
 
 If the products in the bundle have variant prices themselves then we need to tell the shortcode which price variation to measure against. This assumes that your product price variations all have the same pricing structure. 
